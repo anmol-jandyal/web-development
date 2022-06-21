@@ -1,0 +1,23 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: black;
+  color: azure;
+}
+
+/* //for changing the colour of anchor text(links) */
+a {
+  color: yellow;
+}
+/*if we have visited the link its color will change. we can also change its color*/
+a:visited {
+  color: #ee9b80;
+}
+
+/*while hovering over the link its color can also be changed*/
+a:hover,
+a:active {
+  color: #eee;
+}
